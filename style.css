@@ -1,0 +1,212 @@
+/* Body */
+body {
+    background-color: #f5f5f5;
+  }
+  
+  /* Header */
+   
+  
+  /* Form */
+  #billing-form {
+    width: 60%;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 2rem;
+    animation: fadeIn 1s ease;
+  }
+  
+  /* Table */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 2rem;
+  }
+  
+  th {
+    text-align: left;
+  }
+  
+  th,
+  td {
+    padding: 0.75rem;
+    border: 1px solid #ddd;
+  }
+  
+  /* Input */
+  input[type="text"],
+  input[type="number"] {
+    width: 90%;
+    padding: 0.5rem;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Buttons */
+  .button {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #3fffc9;
+    color: #ffffff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button:hover {
+    background-color: #007ede;
+  }
+  
+  /* Total Table */
+  #total-table {
+    width: 30%;
+    margin: 2rem auto;
+    border-collapse: collapse;
+    text-align: right;
+  }
+  
+  #total-table td {
+    padding: 0.5rem;
+    border: none;
+  }
+  
+  #total-table strong {
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+  
+  /* Animation */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(-10%);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+  }
+  
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(20%);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+  }
+  body {
+    background: linear-gradient(#141e30, #243b55);
+  }
+  
+  
+  #billing-form table {
+    margin: auto;
+    width: 80%;
+    border-collapse: collapse;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    animation: fadeIn 0.5s ease-in-out;
+  }
+  
+  #billing-form td,
+  #billing-form th {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  #billing-form tbody tr:hover {
+    background-color: #ffffff;
+  }
+  
+  #billing-form tbody td input[type="text"],
+  #billing-form tbody td input[type="number"] {
+    width: 90%;
+    padding: 8px 10px;
+    border: none;
+    border-radius: 3px;
+    background-color: #e0dfdf;
+  }
+  
+  #billing-form tbody td button {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 3px;
+    background-color: #a09f9f;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  #billing-form tbody td button:hover {
+    background-color: #cafaf5;
+  }
+  
+  #billing-form #total-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    background-color: #0fe3ff;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    animation: fadeInUp 0.5s ease-in-out;
+  }
+  
+  #billing-form #total-button:hover {
+    background-color: #00969b;
+  }
+  
+  #total-table {
+    margin: auto;
+    width: 80%;
+    border-collapse: collapse;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    animation: fadeIn 0.5s ease-in-out;
+  }
+  
+  #total-table td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  #total-table td:first-child {
+    font-weight: bold;
+  }
+  
+  #grand-total {
+    font-weight: bold;
+    text-align: right;
+  }
+  h1 {
+    color: #ffffff;
+    text-align: center;
+    font-size: 48px;
+    text-shadow: 0px 0px 20px #ffffff;
+    animation: glowing 2s infinite;
+  }
+  
+  @keyframes glowing {
+    0% {
+      text-shadow: 0px 0px 20px #ff2b52;
+    }
+    50% {
+      text-shadow: 0px 0px 40px #f70000;
+    }
+    100% {
+      text-shadow: 0px 0px 20px #ff0077;
+    }
+  }
+  
+  h2{
+    color: red;
+    font-size: large;
+    font-family: inherit;
+    align-items: center;
+    text-align: center;
+  }
