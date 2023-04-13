@@ -99,8 +99,7 @@ body {
       transform: translateY(0%);
     }
   }
-  body {
-    background: linear-gradient(#141e30, #243b55);
+  body { background-color:aqua;
   }
   
   
